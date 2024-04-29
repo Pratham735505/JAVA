@@ -5,8 +5,9 @@ import java.awt.event.ActionListener;
 
 
 /* <applet code = "Graph" width = 800 height = 800 > </applet> */
+
 public class Graph extends Applet implements Runnable, ActionListener {
-   // int x = 0;
+   
     Thread t;
     TextField t1,t2,t3,t4;
     Button b;
